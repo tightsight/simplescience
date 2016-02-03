@@ -1,0 +1,88 @@
+@nice-blue: #444;
+
+@main: #286090;
+
+body {
+	background-color: @nice-blue;
+	color: #333;
+}
+
+nav {
+	z-index: 1;  // fullPage.js puts something in front.
+}
+
+.navbar-default {
+	// background-color: transparent;
+	background-color: white;
+
+
+	// background-color: red;
+	.navbar-nav>li>a, .navbar-brand {
+		color: black; 
+	}
+}
+
+.navbar {
+	border: none;
+}
+
+h1 {
+	color: @main;
+}
+
+h1.title {
+	font-size: 60px;
+}
+
+.section1 {
+	padding-top: 50px;
+
+	p {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+
+.top-text {
+	padding-top: 75px;
+}
+
+ul.research-list {
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul.research-list li {
+	// text-indent: 1.4em;
+	// padding-left: 1.4em;
+	margin-bottom: 25px;
+}
+
+ul.research-list li:before {
+	float: left;
+	margin-left: -40px;
+	margin-top: -5px;
+	font-family: "Glyphicons Halflings";
+	content: "\e013";
+	// float: left;
+	// width: 1.4em;
+	font-size: 22px;
+	color: @main;
+}
+
+.first-column {
+	border-right: 1px solid @main;
+}
+
+ol.publications {
+	margin-top: 25px;
+
+	li {
+		margin-bottom: 25px;
+	}
+}
+
+.btn-outline {
+	border: none;
+}
