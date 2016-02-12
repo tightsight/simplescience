@@ -1,0 +1,60 @@
+body {
+  margin-top: 50px;
+}
+h2 {
+  color: #c35b5b;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #c35b5b;
+}
+.btn-red {
+  border-color: #c35b5b;
+  color: #c35b5b;
+}
+.btn-red:hover {
+  border-color: #873131;
+  color: #873131;
+  background-color: white;
+}
+.left-column {
+  padding: 8px;
+}
+.left-column .links {
+  font-size: 16px;
+}
+.left-column ul {
+  margin: 25px 0px;
+}
+.left-column ul a {
+  text-decoration: none;
+}
+.left-column img {
+  max-width: 240px;
+}
+.btn-outline {
+  border: none;
+}
+ul.webstuff {
+  color: #c35b5b;
+}
+ul.webstuff a {
+  color: #c35b5b;
+}
+ul.webstuff li {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.publications .btn {
+  color: #337ab7;
+}
+.publications li {
+  margin-bottom: 15px;
+}
+.education li {
+  margin-bottom: 15px;
+}
