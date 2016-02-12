@@ -1,2 +1,2 @@
-# fenyman
-Website Template
+# simplescience
+Website Template for Scientists
