@@ -1,0 +1,96 @@
+@primary: #C35B5B;
+@primary-dark: darken(@primary, 20%);
+// @linkcolor: lighten(@primary, 5%);
+
+body {
+	margin-top: 50px;
+	// font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	// font-family: "Times New Roman", Times, serif;
+	// font-family: "Lucida Console", Monaco, monospace;
+}
+
+// strong { font-size: 16px; }
+
+h2 {
+	color: @primary;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	margin-top: 40px;
+	margin-bottom: 15px;
+	color: @primary;
+}
+
+.btn-red {
+	border-color: @primary;
+	color: @primary;
+}
+.btn-red:hover {
+	border-color: @primary-dark;
+	color: @primary-dark;
+	background-color: white;
+}
+
+
+.left-column {
+	padding: 8px;
+
+	.links {
+		font-size: 16px;
+		// li {margin-bottom: 5px;}
+	}
+
+	ul {
+		margin: 25px 0px;
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+	img {
+		max-width: 240px;
+	}
+
+}
+
+.btn-outline {
+	border: none;
+}
+
+ul.webstuff {
+	color: @primary;
+
+	a { color: @primary; }
+
+	li {
+		font-size: 14px;
+		margin-bottom: 7px;
+	}
+}
+
+.publications {
+
+	// margin-left: 25px;
+
+	.btn {
+		color: #337ab7;
+		// color: @primary;
+	}
+
+	// p { margin-bottom: 0px; }
+
+	li {
+		margin-bottom: 15px;
+	}
+}
+
+.education {
+	li {
+		margin-bottom: 15px;
+	}
+}
